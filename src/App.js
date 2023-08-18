@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Header from './components/Header/header';
 import Event from './components/Event/event';
 const App = () => {
@@ -32,9 +32,10 @@ const App = () => {
     <Header name='Venom'/>
     <p>He is killing person</p>
      */}
-     <Event passedDate={subscriptions[0].date.toDateString()} passedTitle={subscriptions[0].title} passedAmount={subscriptions[0].amount}/>
-     <Event passedDate={subscriptions[1].date.toDateString()} passedTitle={subscriptions[1].title} passedAmount={subscriptions[1].amount}/>
-     <Event passedDate={subscriptions[2].date.toDateString()} passedTitle={subscriptions[2].title} passedAmount={subscriptions[2].amount}/>
+     {/* <Event passedDate={subscriptions[0].date} passedTitle={subscriptions[0].title} passedAmount={subscriptions[0].amount}/>
+     <Event passedDate={subscriptions[1].date} passedTitle={subscriptions[1].title} passedAmount={subscriptions[1].amount}/>
+     <Event passedDate={subscriptions[2].date} passedTitle={subscriptions[2].title} passedAmount={subscriptions[2].amount}/> */}
+    
     </>
   )
 }
