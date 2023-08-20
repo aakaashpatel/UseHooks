@@ -2,6 +2,7 @@
 import Header from './components/Header/header';
 import Event from './components/Event/event';
 import HomeContainer from './containers/HomeContainer';
+import Home from './components/Home/Home';
 const App = () => {
   let subscriptions=[
     {
@@ -36,7 +37,8 @@ const App = () => {
      {/* <Event passedDate={subscriptions[0].date} passedTitle={subscriptions[0].title} passedAmount={subscriptions[0].amount}/>
      <Event passedDate={subscriptions[1].date} passedTitle={subscriptions[1].title} passedAmount={subscriptions[1].amount}/>
      <Event passedDate={subscriptions[2].date} passedTitle={subscriptions[2].title} passedAmount={subscriptions[2].amount}/> */}
-     <HomeContainer/>
+     {/* <HomeContainer/> */}
+     <Home/>
     </>
   )
 }
